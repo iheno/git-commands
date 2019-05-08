@@ -1,23 +1,14 @@
 
 # git remote err
 
-## Speed up your website! Loading Action
-
+## error: The requested URL returned error: 403 Forbidden while accessing ....
 
 
 ```
-//WINDOW LOAD
-$(window).load(function(){  
-  $('body').addClass('loaded');  
-  $('#loader-wrapper').fadeOut();
-});
+//check your remote url
+git remote -v
 
-// Change to this
-
-//DOCUMENT READY
-$(document).ready(function(){
-  $('body').addClass('loaded');
-  $('#loader-wrapper').fadeOut();
-});
+// Change Remote URL
+git remote set-url origin https://YOURUSERNAME@github.com/USERNAME/REPOSITORY.git
 
 ```
