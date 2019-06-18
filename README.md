@@ -11,4 +11,6 @@ git remote -v
 // Change Remote URL
 git remote set-url origin https://YOURUSERNAME@github.com/USERNAME/REPOSITORY.git
 
+// err msg: [rejected] master -> master (non-fast-forward)
+git pull origin master --allow-unrelated-histories
 ```
